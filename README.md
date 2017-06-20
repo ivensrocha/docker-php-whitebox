@@ -1,2 +1,1 @@
-# docker-php-whitebox
-Apache and PHP whitebox
+Clean installation for PHP, Apache and Magento requirements
