@@ -39,3 +39,5 @@ docker run --name abib2bconvergence_whitebox -d -v <path>:/var/www/html ivens/ph
 
 
 mkdir -p ~/.composer && echo '{"github-oauth":{"github.com":"'$GITHUB_TOKEN'"},"http-basic":{"repo.magento.com":{"username":"'$REPO_MAGENTO_USERNAME'","password":"'$REPO_MAGENTO_PASSWORD'"}}}' > ~/.composer/auth.json
+
+ln -s /var/www/html/src/lib/internal/Webjump/ProductABIService/ library-abib2b-product-abi-service
